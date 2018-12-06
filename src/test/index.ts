@@ -25,6 +25,7 @@ const VERSION_MAP: { y: Year, m: Month[] }[] = [
   { y: 2016, m: <Month[]>[ ...Array( 13 ).keys() ].slice( 1 ) },
   { y: 2017, m: <Month[]>[ ...Array( 13 ).keys() ].slice( 1 ) },
   { y: 2018, m: <Month[]>[ ...Array( 13 ).keys() ].slice( 1 ) },
+  { y: 2019, m: <Month[]>[ ...Array( 13 ).keys() ].slice( 1 ) },
 ];
 
 
@@ -113,13 +114,13 @@ export function rerun() {
 }
 
 
-let count = 1;
+let count = 0;
 
 if ( process.argv && process.argv[ 2 ] ) {
   count = parseInt( process.argv[ 2 ] );
-  if ( count === 0 ) {
-    rerun();
-  } else {
-    run( count );
-  }
+}
+if ( isNaN( count ) || ( count === 0 ) ) {
+  rerun();
+} else {
+  run( count );
 }

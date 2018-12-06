@@ -13,6 +13,7 @@ import { Lohnsteuer2015DezemberBig as Lohnsteuer2015Dezember } from './calculato
 import { Lohnsteuer2016Big as Lohnsteuer2016 } from './calculators/Lohnsteuer2016';
 import { Lohnsteuer2017Big as Lohnsteuer2017 } from './calculators/Lohnsteuer2017';
 import { Lohnsteuer2018Big as Lohnsteuer2018 } from './calculators/Lohnsteuer2018';
+import { Lohnsteuer2019Big as Lohnsteuer2019 } from './calculators/Lohnsteuer2019';
 
 
 export const calculatorList = [
@@ -28,7 +29,8 @@ export const calculatorList = [
   Lohnsteuer2015BisNovember, Lohnsteuer2015Dezember,
   Lohnsteuer2016,
   Lohnsteuer2017,
-  Lohnsteuer2018
+  Lohnsteuer2018,
+  Lohnsteuer2019
 ];
 
 export const calculatorsByMonth = {
@@ -44,7 +46,8 @@ export const calculatorsByMonth = {
   2015: months( Lohnsteuer2015BisNovember, Lohnsteuer2015Dezember ),
   2016: months( Lohnsteuer2016, Lohnsteuer2016 ),
   2017: months( Lohnsteuer2017, Lohnsteuer2017 ),
-  2018: months( Lohnsteuer2018, Lohnsteuer2018 )
+  2018: months( Lohnsteuer2018, Lohnsteuer2018 ),
+  2019: months( Lohnsteuer2019, Lohnsteuer2019 )
 };
 
 

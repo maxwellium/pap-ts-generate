@@ -13,7 +13,8 @@ import { Lohnsteuer2015DezemberBig as Lohnsteuer2015Dezember } from './calculato
 import { Lohnsteuer2016Big as Lohnsteuer2016 } from './calculators/Lohnsteuer2016';
 import { Lohnsteuer2017Big as Lohnsteuer2017 } from './calculators/Lohnsteuer2017';
 import { Lohnsteuer2018Big as Lohnsteuer2018 } from './calculators/Lohnsteuer2018';
-export declare const calculatorList: (typeof Lohnsteuer2006Big | typeof Lohnsteuer2007Big | typeof Lohnsteuer2008Big | typeof Lohnsteuer2009Big | typeof Lohnsteuer2010Big | typeof Lohnsteuer2011BisNovember | typeof Lohnsteuer2012 | typeof Lohnsteuer2013_2 | typeof Lohnsteuer2014 | typeof Lohnsteuer2015BisNovember | typeof Lohnsteuer2015Dezember | typeof Lohnsteuer2016 | typeof Lohnsteuer2017 | typeof Lohnsteuer2018)[];
+import { Lohnsteuer2019Big as Lohnsteuer2019 } from './calculators/Lohnsteuer2019';
+export declare const calculatorList: (typeof Lohnsteuer2006Big | typeof Lohnsteuer2007Big | typeof Lohnsteuer2008Big | typeof Lohnsteuer2009Big | typeof Lohnsteuer2010Big | typeof Lohnsteuer2011BisNovember | typeof Lohnsteuer2012 | typeof Lohnsteuer2013_2 | typeof Lohnsteuer2014 | typeof Lohnsteuer2015BisNovember | typeof Lohnsteuer2015Dezember | typeof Lohnsteuer2016 | typeof Lohnsteuer2017 | typeof Lohnsteuer2018 | typeof Lohnsteuer2019)[];
 export declare const calculatorsByMonth: {
     2006: {
         1: typeof Lohnsteuer2006Big;
@@ -196,5 +197,19 @@ export declare const calculatorsByMonth: {
         10: typeof Lohnsteuer2018;
         11: typeof Lohnsteuer2018;
         12: typeof Lohnsteuer2018;
+    };
+    2019: {
+        1: typeof Lohnsteuer2019;
+        2: typeof Lohnsteuer2019;
+        3: typeof Lohnsteuer2019;
+        4: typeof Lohnsteuer2019;
+        5: typeof Lohnsteuer2019;
+        6: typeof Lohnsteuer2019;
+        7: typeof Lohnsteuer2019;
+        8: typeof Lohnsteuer2019;
+        9: typeof Lohnsteuer2019;
+        10: typeof Lohnsteuer2019;
+        11: typeof Lohnsteuer2019;
+        12: typeof Lohnsteuer2019;
     };
 };
