@@ -3,6 +3,7 @@ export declare abstract class PAPBaseClass<Inputs, Outputs, Internals> {
     abstract _inputs: Inputs;
     abstract _outputs: Outputs;
     abstract _internals: Internals;
+    abstract main(): void;
     inputs: {
         [i in keyof Inputs]: number;
     };

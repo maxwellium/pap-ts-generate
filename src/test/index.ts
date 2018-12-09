@@ -39,7 +39,7 @@ function calculate( index: number, inputs: Inputs ) {
   return calculator.outputs;
 }
 
-function compare( outputs: Outputs, bmfOutputs: Outputs ) {
+export function compare( outputs: Outputs, bmfOutputs: Outputs ) {
 
   let pass = true,
     result: { [ k: string ]: string } = {};

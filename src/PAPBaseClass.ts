@@ -8,6 +8,8 @@ export abstract class PAPBaseClass<Inputs, Outputs, Internals> {
   public abstract _outputs: Outputs;
   public abstract _internals: Internals;
 
+  abstract main(): void;
+
   set inputs( inputs: { [ i in keyof Inputs ]: number } ) {
     for ( let key in inputs ) {
       if ( this._inputs[ key ] instanceof BigDecimal ) {
