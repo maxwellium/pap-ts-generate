@@ -1,2 +1,2 @@
 ## License
-Proprietary Software! (c) Copyright 2018 bonnie + cloud UG, all rights reserved.
+Proprietary Software! (c) Copyright 2019 Max Dancau, all rights reserved.
