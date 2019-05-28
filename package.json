@@ -6,11 +6,9 @@
   "scripts": {
     "test": "node build/test",
     "generate": "node generate",
-    "clean": "gts clean",
     "compile": "tsc -p .",
     "uglify": "find ./build/ -name '*.js.map' -exec rm -r {} \\; && for f in $(find ./build/ -name \"*.js\"); do uglifyjs --mangle -o $f $f; done",
-    "build": "npm run compile && npm run uglify && rm -rf ../pap-ts/lib/* && cp -r ./build/* ../pap-ts/lib/",
-    "fix": "gts fix"
+    "build": "npm run compile && npm run uglify && rm -rf ../pap-ts/lib/* && cp -r ./build/* ../pap-ts/lib/"
   },
   "author": "maxwellium",
   "private": true,
@@ -18,10 +16,9 @@
     "bigdecimal": "^0.6.1"
   },
   "devDependencies": {
-    "@types/node": "^10.12.10",
+    "@types/node": "^12.0.2",
     "bmf-steuerrechner-api": "github:maxwellium/bmf-steuerrechner-api#master",
-    "gts": "^0.9.0",
-    "typescript": "^3.1.6",
+    "typescript": "^3.4.5",
     "uglify-es": "^3.3.9"
   }
 }

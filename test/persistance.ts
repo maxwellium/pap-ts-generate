@@ -5,7 +5,7 @@ import { promisify } from 'util';
 
 import { crc32 } from './crc32';
 import { Inputs, Outputs } from './parameters';
-import { calculatorsByMonth } from '../index';
+import { calculatorsByMonth } from '../src/index';
 
 const appendFileAsync = promisify( appendFile );
 

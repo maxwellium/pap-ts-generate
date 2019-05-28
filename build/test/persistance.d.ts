@@ -1,7 +1,7 @@
 /// <reference types="node" />
 import { EventEmitter } from 'events';
 import { Inputs, Outputs } from './parameters';
-import { calculatorsByMonth } from '../index';
+import { calculatorsByMonth } from '../src/index';
 export declare type Year = keyof typeof calculatorsByMonth;
 export declare type Month = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12;
 export interface Sample {

@@ -2,7 +2,7 @@ import { join } from 'path';
 import { bmf } from 'bmf-steuerrechner-api';
 import { BMFResponse } from 'bmf-steuerrechner-api/build/parse';
 
-import { calculatorList, calculatorsByMonth } from '../index';
+import { calculatorList, calculatorsByMonth } from '../src/index';
 import { randomized, Inputs, Outputs } from './parameters';
 import { replaySampleStream, Sample, saveSamples, Year, Month } from './persistance';
 
