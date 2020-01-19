@@ -26,6 +26,7 @@ const VERSION_MAP: { y: Year, m: Month[] }[] = [
   { y: 2017, m: <Month[]>[ ...Array( 13 ).keys() ].slice( 1 ) },
   { y: 2018, m: <Month[]>[ ...Array( 13 ).keys() ].slice( 1 ) },
   { y: 2019, m: <Month[]>[ ...Array( 13 ).keys() ].slice( 1 ) },
+  { y: 2020, m: <Month[]>[ ...Array( 13 ).keys() ].slice( 1 ) },
 ];
 
 

@@ -14,7 +14,8 @@ import { Lohnsteuer2016Big as Lohnsteuer2016 } from './calculators/Lohnsteuer201
 import { Lohnsteuer2017Big as Lohnsteuer2017 } from './calculators/Lohnsteuer2017';
 import { Lohnsteuer2018Big as Lohnsteuer2018 } from './calculators/Lohnsteuer2018';
 import { Lohnsteuer2019Big as Lohnsteuer2019 } from './calculators/Lohnsteuer2019';
-export declare const calculatorList: (typeof Lohnsteuer2006Big | typeof Lohnsteuer2007Big | typeof Lohnsteuer2008Big | typeof Lohnsteuer2009Big | typeof Lohnsteuer2010Big | typeof Lohnsteuer2011BisNovember | typeof Lohnsteuer2012 | typeof Lohnsteuer2013_2 | typeof Lohnsteuer2014 | typeof Lohnsteuer2015BisNovember | typeof Lohnsteuer2015Dezember | typeof Lohnsteuer2016 | typeof Lohnsteuer2017 | typeof Lohnsteuer2018 | typeof Lohnsteuer2019)[];
+import { Lohnsteuer2020Big as Lohnsteuer2020 } from './calculators/Lohnsteuer2020';
+export declare const calculatorList: (typeof Lohnsteuer2006Big | typeof Lohnsteuer2007Big | typeof Lohnsteuer2008Big | typeof Lohnsteuer2009Big | typeof Lohnsteuer2010Big | typeof Lohnsteuer2011BisNovember | typeof Lohnsteuer2012 | typeof Lohnsteuer2013_2 | typeof Lohnsteuer2014 | typeof Lohnsteuer2015BisNovember | typeof Lohnsteuer2015Dezember | typeof Lohnsteuer2016 | typeof Lohnsteuer2017 | typeof Lohnsteuer2018 | typeof Lohnsteuer2019 | typeof Lohnsteuer2020)[];
 export declare const calculatorsByMonth: {
     2006: {
         1: typeof Lohnsteuer2006Big;
@@ -211,5 +212,19 @@ export declare const calculatorsByMonth: {
         10: typeof Lohnsteuer2019;
         11: typeof Lohnsteuer2019;
         12: typeof Lohnsteuer2019;
+    };
+    2020: {
+        1: typeof Lohnsteuer2020;
+        2: typeof Lohnsteuer2020;
+        3: typeof Lohnsteuer2020;
+        4: typeof Lohnsteuer2020;
+        5: typeof Lohnsteuer2020;
+        6: typeof Lohnsteuer2020;
+        7: typeof Lohnsteuer2020;
+        8: typeof Lohnsteuer2020;
+        9: typeof Lohnsteuer2020;
+        10: typeof Lohnsteuer2020;
+        11: typeof Lohnsteuer2020;
+        12: typeof Lohnsteuer2020;
     };
 };

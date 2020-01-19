@@ -4,13 +4,16 @@ export declare abstract class PAPBaseClass<Inputs, Outputs, Internals> {
     abstract _outputs: Outputs;
     abstract _internals: Internals;
     abstract main(): void;
-    inputs: {
+    set inputs(inputs: {
+        [i in keyof Inputs]: number;
+    });
+    get inputs(): {
         [i in keyof Inputs]: number;
     };
-    readonly outputs: {
+    get outputs(): {
         [i in keyof Outputs]: number;
     };
-    readonly internals: {
+    get internals(): {
         [i in keyof Internals]: number;
     };
 }
